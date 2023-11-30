@@ -1,9 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
-import Mobilestorymoon from "../assets/stories/mobile/moon-of-appalacia.jpg";
-import Storymoon from "../assets/stories/desktop/moon-of-appalacia.jpg";
-import TabStorymoon from "../assets/stories/tablet/moon-of-appalacia.jpg";
-import MobileMauntain from "../assets/stories/mobile/mountains.jpg";
+import Mobilestorymoon from "../assets/stories/mobile/30.jpg";
+import Storymoon from "../assets/stories/desktop/30.jpg";
+import TabStorymoon from "../assets/stories/tablet/30.jpg";
+import MobileMauntain from "../assets/stories/mobile/1.jpg";
 import CitySun from "../assets/stories/desktop/cityscapes.jpg";
 import MobileCitySun from "../assets/stories/mobile/cityscapes.jpg";
 import Voiager from "../assets/stories/desktop/18-days-voyage.jpg";
@@ -58,17 +58,19 @@ const Story: React.FC = () => {
       <Divforpictureandtext>
      
         <Divfortext>
-        <Contentelement>   LAST MONTH’S FEATURED STORY  </Contentelement>
+        <Contentelement>     </Contentelement>
           <Paragrapaboutsharestory>
-          HAZY FULL MOON OF APPALACHIA{" "}
+          Exhibition <br></br>  Someone is looking at you {" "}
           </Paragrapaboutsharestory>
-          <Contentelement>  March 2nd 2020 by John Appleseed </Contentelement>
+          <Contentelement>  
+
+The exhibition venue is ArtArea </Contentelement>
           <Contentelement>
             {" "}
-            The dissected plateau area, while not actually made up of geological mountains, is popularly called "mountains," especially in eastern Kentucky and West Virginia, and while the ridges are not high, the terrain is extremely rugged.
+           
           </Contentelement>
           <GetAnIntiveelement>
-            <TextGetANINTIVE> GET AN INVITE</TextGetANINTIVE>
+            <TextGetANINTIVE> GET LOCATION</TextGetANINTIVE>
             <svg xmlns="http://www.w3.org/2000/svg" width="43" height="14">
               <g fill="none" fill-rule="evenodd" stroke="white">
                 <path d="M0 7h41.864M35.428 1l6 6-6 6" />
@@ -365,7 +367,7 @@ const Divforpicture = styled.div`
 
 const Paragrapaboutsharestory = styled.p`
   color: #fff;
-  font-size: 40px;
+  font-size: 35px;
   font-family: DM Sans;
   font-weight: 700;
   line-height: 48px;
@@ -373,10 +375,7 @@ const Paragrapaboutsharestory = styled.p`
   text-transform: uppercase;
   margin-left: 50px;
   
-  @media (max-width: 767px){
 
-    
-  }
 `;
 
 const Contentelement = styled.h1`
@@ -387,7 +386,7 @@ const Contentelement = styled.h1`
   opacity: 0.6000000238418579;
   width: 400px;
   margin-left: 50px;
-  margin-top:50px;
+  margin-top:15px;
 `;
 
 const GetAnIntiveelement = styled.div`
