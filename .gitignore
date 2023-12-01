@@ -7,6 +7,16 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+
+.DS_Store
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+
+
+.pnp.lock
+
 node_modules
 dist
 dist-ssr
@@ -22,3 +32,9 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+.env
+.env.production
+.env.local
+.env.development
+
